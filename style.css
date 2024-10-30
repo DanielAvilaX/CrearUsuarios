@@ -1,0 +1,18 @@
+body {
+    background-image: url('./Fondo.avif');
+    background-size: cover; /* Esto asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-color: #f8f9fa; /* Color de fondo en caso de que la imagen no cargue */
+}
+
+h1 {
+    color: #0d6efd;
+}
+
+#sqlOutput {
+    background-color: rgba(233, 236, 239, 0.8); /* Añade un poco de transparencia al fondo del output */
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
